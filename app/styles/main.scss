@@ -1,31 +1,19 @@
-// bower:scss
-// endbower
+/* css released under Creative Commons License -  http://creativecommons.org/licenses/by/2.0/deed.en  */
+/* html5 + CSS 3 Template created by miss monorom  http://intensivstation.ch 2013 */
 
-body {
-  background: #fafafa;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
+/* reset */
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
 }
+/* render html5 elements as block
+   rendert html5 elemente als block  */
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-}
+header, footer, section, aside, nav, article { display: block;}
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
