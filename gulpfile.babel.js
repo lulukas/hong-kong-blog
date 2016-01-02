@@ -168,9 +168,9 @@ var ftp = require('gulp-ftp');
 
 gulp.task('deploy', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
   return gulp.src('dist/**/*').pipe(ftp({
-      host: 'ftp.rekli.net',
-      user: 'lukas@rekli.net',
-      pass: 'lukas.klier@rekli.net',
+      host: '***',
+      user: '***',
+      pass: '***',
       remotePath: '/hong-kong-blog'
   })).pipe(gutil.noop());
 });
