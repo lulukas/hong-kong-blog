@@ -1,19 +1,14 @@
 /* css released under Creative Commons License -  http://creativecommons.org/licenses/by/2.0/deed.en  */
 /* html5 + CSS 3 Template created by miss monorom  http://intensivstation.ch 2013 */
 
-/* reset */
-* {
-margin: 0;
-padding: 0;
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-}
-/* render html5 elements as block
-   rendert html5 elemente als block  */
+@import "reset";
+@import "old";
 
-header, footer, section, aside, nav, article { display: block;}
-
-p {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+.photo-link{
+  margin: 8px;
+  a{
+    text-align: right;
+    font-size: 16px;
+    color: greenyellow;
+  }
 }

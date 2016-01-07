@@ -1,0 +1,12 @@
+/* reset */
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+/* render html5 elements as block
+   rendert html5 elemente als block  */
+
+header, footer, section, aside, nav, article { display: block;}
